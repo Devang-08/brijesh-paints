@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+nav li {
+    margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#imgss {
+    height: 400px;
+    width: 500px;
+}
+
+#hometext {
+    margin-left: 50%;
+    background-color: rgb(188, 217, 224);
+    color: black;
+
+}
+
+#aboutt {
+    border: 2px solid black;
+    padding: 30px;
+    color: rgb(5, 44, 31);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#aboutus {
+    align-items: center;
+    text-align: center;
+}
+
+#name {
+    margin-bottom: 140px;
+}
+
+#imap {
+    height: 500px;
+    width: 550px;
+}
+
+#form {
+    width: 700px;
+}
+
+#conbtn {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.card-con {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20rem;
+    background-color: rgb(252, 232, 232);
+    margin: 3px;
+}
+#tin{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 80px;
+}
+.powder{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.accs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    margin-left: 100px;
 }
